@@ -1,6 +1,6 @@
 # ProjetoPet
 
-Projeto Tamaguchi 
+Projeto YourPet 
 Integrantes  
 Pablo Vinicius😉
 Lucas Amaral😛
