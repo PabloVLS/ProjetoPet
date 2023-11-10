@@ -223,15 +223,7 @@ Inicio
                   escreval
                fimse
             fimse
-            doencaChance <- randi(101)
-            se(doenca=falso)entao
-               se(doencaChance <10) entao
-                  doenca <- verdadeiro
-                  escreval(nomePet," está Doente")
-                  chanceCura <- randi(101)
-                  escreval
-               fimse
-            fimse
+            
             se(tempoDoente = 16) entao
                se(chanceCura < 66.6) entao
                   doenca <- falso
@@ -247,6 +239,17 @@ Inicio
                escreval("O ",NomePet," foi curado,após 24 horas!")
                tempoDoente<-0
                escreval
+               escreval
+            fimse
+         fimse
+
+         doencaChance <- randi(101)
+
+         se(doenca=falso)entao
+            se(doencaChance <10) entao
+               doenca <- verdadeiro
+               escreval(nomePet," está Doente")
+               chanceCura <- randi(101)
                escreval
             fimse
          fimse
